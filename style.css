@@ -1,0 +1,71 @@
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.three{
+    display: flex;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #F4E8FF, #F2FDFD, #FEE7D8);
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.text {
+    flex: 1;
+    color: black;
+    text-align: left;
+    padding: 20px;
+
+}
+
+.text {
+    border-right: none;
+}
+
+.text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+.text button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+.text .free-btn {
+    background-color: #ad67f3;
+}
+
+.text .standard-btn {
+    background-color: #30f5f5;
+}
+
+.text .premium-btn {
+    background-color: #f4a149;
+    margin-top: auto;
+    align-self: center;
+}
